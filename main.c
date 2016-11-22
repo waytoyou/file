@@ -1,6 +1,6 @@
 #include "stm32f10x.h"
  
-int i;
+int i;//123
  
 void My_Usart1_Send(char *string){
     while(*string){
